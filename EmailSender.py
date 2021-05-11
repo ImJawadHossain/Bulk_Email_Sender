@@ -12,10 +12,10 @@ mail_list = ["jawadsgs3@gmail.com",
 E_A = os.environ.get('ine')
 E_P = os.environ.get('password')
 msg = EmailMessage()
-msg['Subject'] = "This final test"
-msg['From'] = E_A
+msg['Subject'] = "This final test155"
+msg['From'] = "Jessica<"+E_A+"ppaayeel@gmail.com>"
 msg['Bcc'] = mail_list
-msg.set_content("would you like this Image?",E_A, E_P)
+msg.set_content("would you like this Image?")
 
 with open('GroupEvents.jpg', 'rb') as f:
     file_data = f.read()
